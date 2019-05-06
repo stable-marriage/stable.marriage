@@ -1,4 +1,4 @@
-#Details
+Details
 -------
 This project contains the implementation of algorithms that solve the stable marriage problem. (https://en.wikipedia.org/wiki/Stable_marriage_problem)
 
@@ -15,7 +15,7 @@ Novel algorithms implemented:
 * iBiLS (refined version with rotations)
 * Hybrid, HybridMultiSearch: combinations of PowerBalance with the local search method
 
-#Usage
+Usage
 -----
 Clone from github and run:
 ```
@@ -39,8 +39,11 @@ The raw outputs and plots are placed in the results directory.
 
 There is also the option to produce and run zipped input files to save space.
 
-#Dependencies
+Dependencies
 -----
+You need maven to build the project:
+* sudo apt-get install maven
+
 For the plotting scripts you need:
 
 * pip install numpy
